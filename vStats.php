@@ -26,7 +26,7 @@ foreach($vdcs as $vdc)
 {
 
     // Print each vDC's info
-    //print_r(getVdcInfo($vdc));
+    print_r(getVdcInfo($vdc));
     
     if($vdc)
     {
